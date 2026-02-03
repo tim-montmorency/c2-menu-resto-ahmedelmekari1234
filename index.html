@@ -1,21 +1,173 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Nom du Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- 
-        INSTRUCTIONS :
-        1. Remplacez "Nom du Restaurant" par le nom de votre choix
-        2. Créez une structure sémantique (section, article, header, etc.)
-        3. Utilisez des listes (ul/li) pour les items de menu
-        4. Ajoutez des classes cohérentes (BEM recommandé)
-
-        Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
-    -->
-    
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Restaurant</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="photo-mange"></nav>
+    <nav class="oguri"></nav>
+ 
+    <main>
+      <header>
+        <h1 class="section"><i>Menu de Ahmed El-Mekari!</i></h1>
+      </header>
+ 
+      <hr>
+ 
+      <nav>
+        <h2 class="section">Entrés</h2>
+ 
+        <ul>
+          <li>
+            Menu VIP<sup>(POPULAIRE)</sup>
+            <p class="descrpition">
+              <i
+                >Le menu VIP est autant proméssant qu'un monstre devant une
+                proie. Le menu VIP donne à son mangeur un repas jamais vu. Des
+                légumes avec du pain et du fromage chauffé. Des fruits seront au
+                jour. La portion est assez pour 4 personnes. Un bon repas pour
+                assembler les héros!</i
+              >
+            </p>
+            <p class="prix">29.99$</p>
+          </li>
+        </ul>
+ 
+        <ul>
+          <li>
+            Salade Japon
+            <p class="descrpition">
+              <i
+                >La salade Japon est ce que le chef Oguri prenait quand elle
+                était dans son ascension. Elle est constituée de légumes aux
+                choix du client. Elle est 100% personalisée. La salade peut même
+                avoir du pain avec de la confiture au (framboise/pomme)</i
+              >
+            </p>
+            <p class="prix">10.00</p>
+          </li>
+        </ul>
+ 
+        <ul>
+          <li>
+            La soupe du héros
+            <p class="descrpition">
+              <i
+                >Descprition: Une soupe constitué d'harricots et de tomates. Un
+                bon repas pour débuter la journée avant de combattre les
+                villains de sa propre ville.</i
+              >
+            </p>
+            <p class="prix">10.00$</p>
+          </li>
+        </ul>
+      </nav>
+ 
+      <hr>
+ 
+      <nav>
+        <h2 class="section">Plats Principaux</h2>
+        <ul>
+          <li>
+            Burger de l'inspiration
+            <p class="descrpition">
+              <i
+                >Descprition: Un burger rempli de légumes (courgettes,
+                concombre, tomates) et d'une viande fait par le chef Oguri
+                soi-même. Des frites ou un</i
+              >
+            </p>
+            <p class="prix">33,99$</p>
+          </li>
+        </ul>
+ 
+        <ul>
+          <li>
+            Pâtes aux pesto<sup>(VÉGÉ)</sup>
+            <p class="descrpition">
+              <i
+                >Descprition: Des pâtes garnies de sauce alfredo suppoudrées
+                d'une sauce tomate qui est une des plus appréciée par le
+                chef.</i
+              >
+            </p>
+            <p class="prix">22,79$</p>
+          </li>
+        </ul>
+ 
+        <ul>
+          <li>
+            La vitesse
+            <p class="descrpition">
+              <i
+                >Descprition: Du poulet/boeuf (choix au client) avec frites et
+                salade ou soupe aux choix.</i
+              >
+            </p>
+            <p class="prix">26,75$</p>
+          </li>
+        </ul>
+      </nav>
+ 
+      <hr>
+ 
+      <nav>
+        <h2 class="section">Désserts</h2>
+        <ul>
+          <li>
+            Le chocolat de la victoire
+            <p class="descrpition">
+              <i
+                >Descprition: Un gâteau au chocolat rempli de fraises,
+                framboises et bananes. Les portions sont assez pour 2 personnes.
+              </i>
+            </p>
+            <p class="prix">22.50$</p>
+          </li>
+        </ul>
+ 
+        <ul>
+          <li>
+            Crème glacée aux chaussures
+            <p class="descrpition">
+              <i
+                >Descprition: Crème glacée à la vanille et au chocolat. pour se
+                rappeller des longs efforts de notre chef. Choix
+                personalisable.</i
+              >
+            </p>
+            <p class="prix">7.00$</p>
+          </li>
+        </ul>
+ 
+        <ul>
+          <li>
+            Crèpes aux choix suivants:
+            <p class="descrpition">
+              <i>
+                <ol>
+                  <li>- Chocolat, fraises, bananes.</li>
+                  <li>- sirop d'érable, chocolat.</li>
+                  <li>- sirop d'érable, framboise, bleuts, myrtilles.</li>
+                </ol>
+              </i>
+            </p>
+            <p class="prix">9,99$</p>
+          </li>
+        </ul>
+      </nav>
+    </main>
+  </body>
 </html>
